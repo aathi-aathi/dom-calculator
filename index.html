@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="icon" href="//cdn-icons-png.flaticon.com/128/8426/8426232.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-div">
+        <h1 id="title">DOM Calculator</h1>
+        <p id="description">Calculator for our accurate calculation</p>
+        <div class="cal-div">
+            <input id="result">
+            <div class="numbers">
+
+              <button id="clear" onclick="Clear()">C</button>
+               <button class="btn" onclick="Del()"><<</button>
+               <button class="btn">.</button>
+               <button class="btn" onclick="display('*')">x</button>
+               <button onclick="display('7')">7</button>
+               <button onclick="display('8')">8</button>
+               <button onclick="display('9')">9</button>
+               <button onclick="display('/')">/</button>
+               <button onclick="display('4')">4</button>
+               <button onclick="display('5')">5</button>
+               <button onclick="display('6')">6</button>
+                <button id="subtract" onclick="display('-')">-</button>
+               <button onclick="display('1')">1</button>
+               <button onclick="display('2')">2</button>
+               <button onclick="display('3')">3</button>
+               <button id="add" onclick="display('+')">+</button>
+               <button onclick="display('0')">0</button>
+               <button onclick="display('00')">00</button>
+               <button id="equal" onclick="Calculate()">=</button>
+              
+             
+            </div>
+
+        </div></div>
+   <script src="script.js"></script>
+    <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+</body>
+</html>

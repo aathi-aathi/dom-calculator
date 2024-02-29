@@ -1,0 +1,171 @@
+*{
+    margin: 0px;
+    padding:0px;
+
+}
+
+.main-div{
+     height:100vh;
+     width: auto;
+     background: linear-gradient(to right,white,rgb(0, 195, 255));
+     display: grid;
+     place-items: center;
+    }
+.cal-div{
+     border:none;
+     height:490px;
+     width:300px;
+     background-color:rgb(110, 202, 238);
+     border-radius: 20px;
+     box-shadow: 5px 5px 12px rgb(1, 112, 238);
+}
+#result{
+    border: none;
+    border-radius: 20px;
+    height:90px;
+    width: 270px;
+    margin: 15px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    background-color: rgb(51, 175, 247);
+    text-align: end;
+    box-shadow: inset 5px 5px 5px rgb(21, 137, 184);
+    font-size: 40px;
+    padding-right: 5px;
+}
+.numbers{
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(4,75px);
+    place-items: center;
+}
+#clear{
+    height: 48px;
+    width: 48px;
+    background-color: rgb(51, 175, 247);
+    border: none;
+    border-radius: 50%;
+    color:black;
+    font-size: 20px;
+    text-align: center;
+    font-family:sans-serif;
+    box-shadow: 5px 5px 5px rgb(10, 138, 189);
+}
+
+#subtract{
+    height: 48px;
+    width: 48px;
+    background-color: rgb(51, 175, 247);
+    border: none;
+    border-radius: 50%;
+    color:black;
+    font-size: 20px;
+    text-align: center;
+    font-family:sans-serif;
+    box-shadow: 5px 5px 5px rgb(10, 138, 189);
+}
+#add{
+    height: 48px;
+    width: 48px;
+    background-color:rgb(51, 175, 247);
+    border-radius: 50%;
+    border: none;
+    margin:8px;
+    color:black;
+    font-size: 20px;
+    text-align: center;
+    font-family:sans-serif;
+    box-shadow: 5px 5px 5px rgb(10, 138, 189);
+}
+#equal{
+    height: 48px;
+    width: 125px;
+    background-color:rgb(51, 175, 247) ;
+    border: none;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    font-family:sans-serif;
+    margin-left: 88px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(10, 138, 189);
+}
+button{
+    height: 48px;
+    width: 48px;
+    margin: 8px;
+    background-color:rgb(51, 175, 247);
+    border: none;
+    color:black;
+    font-size: 20px;
+    text-align: center;
+    font-family:sans-serif;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px rgb(19, 152, 185);
+    
+}
+button:hover{
+    background-color: rgb(27, 170, 214);
+}
+#clear:hover{
+     background-color: rgb(27, 170, 214);
+}
+#add:hover{
+   background-color: rgb(27, 170, 214);
+}
+#subtract:hover{
+    background-color: rgb(27, 170, 214);
+}
+#equal:hover{
+    background-color: rgb(27, 170, 214);
+}
+@media screen and (min-width:320px)and (max-width:425px){
+#title{
+   display: none;
+}
+#description{
+    display: none;
+}
+.cal-div{
+    width: 100%;
+    height: 100%;
+    border-radius: 0%;
+    border: none;
+}
+#result{
+    width: 90%;
+    height: 150px;
+}
+body{
+    background-color: black;
+}
+.numbers{
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(4,75px);
+    place-items: center;
+    gap: 1rem;
+    margin-left: 5px;
+}
+button{
+    height: 60px;
+    width:60px;
+}
+#clear{
+    height: 60px;
+    width:60px;
+}
+#add{
+    height: 60px;
+    width:60px;
+}
+#subtract{
+    height: 60px;
+    width:60px;
+}
+#equal{
+    height:60px ;
+    width: 150px;
+    margin-left: 100px;
+}
+}
